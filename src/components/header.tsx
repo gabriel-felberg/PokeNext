@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between text-center px-5 py-3 mb-8 bg-gray-900 text-white" >
+    <nav className="flex justify-between text-center px-5 py-[1vh] mb-[5vh] bg-gray-900 text-white h-[6vh]" >
       <div className="flex justify-center items-center gap-2">
         <Image src="/images/pokeball.png" alt="logo" height={30} width={30} />
         <h1>PokeNext</h1>

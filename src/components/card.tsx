@@ -4,12 +4,10 @@ import Link from "next/link";
 import React from "react";
 
 interface IProps {
-  pokemon: IPokemon;
+  pokemon: IResult;
 }
 
-interface IPokemon extends IResult {
-  id: number;
-}
+
 
 const Card = ({ pokemon }: IProps) => {
   return (

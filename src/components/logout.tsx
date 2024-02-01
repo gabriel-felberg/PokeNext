@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 import Footer from "./footer";
 import Header from "./header";
 
-interface IReactNode {
+export interface IReactNode {
   children: ReactNode;
 }
 
@@ -15,7 +15,7 @@ const Logout = ({ children }: IReactNode) => {
         <title>PokeNext</title>
       </Head>
       <Header />
-      <main className="min-h-[70vh]">{children}</main>
+      <main className="min-h-[69vh]">{children}</main>
       <Footer />
     </>
   );
